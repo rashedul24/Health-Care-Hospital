@@ -1,0 +1,38 @@
+[
+  {
+  "id": "1",
+  "name": "Emergency",
+  "img": "https://i.ibb.co/XVjDBcJ/emergency.jpg"
+  },
+  {
+    "id": "2",
+  "name": "Dental Surgery",
+  "img": "https://i.ibb.co/yfq6Zq9/dental-surgery.jpg"
+  },
+  {
+    "id": "3",
+  "name": "Ent Surgery",
+  "img": "https://i.ibb.co/4pGNvFV/ent-surgery.jpg"
+  },
+  {
+    "id": "4",
+  "name": "General Surgery",
+  "img": "https://i.ibb.co/VtVY2Y3/general-surgery.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Gynecology",
+    "img": "https://i.ibb.co/DrQ9bNL/gynecology.jpg"
+    },
+    {
+      "id": "6",
+    "name": "Operation Theatre",
+    "img": "https://i.ibb.co/D1Wqp6b/operation-theatre.jpg"
+    },
+  {
+    "id": "7",
+  "name": "Medicine",
+  "img": "https://i.ibb.co/XzxdXwH/medicine.jpg"
+  }
+ 
+]

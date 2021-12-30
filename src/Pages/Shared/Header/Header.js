@@ -4,11 +4,10 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div>
-      <>
-        <Navbar bg="dark" variant="dark" sticky="top" collapseOnSelect expand="lg">
+
+        <Navbar bg="dark" variant="dark"  collapseOnSelect expand="lg" sticky="top">
           <Container>
-            <Navbar.Brand href="/home" className="text-warning">Health Care Hospital</Navbar.Brand>
+            <Navbar.Brand href="/home" className="text-warning">Health Care</Navbar.Brand>
             <Navbar.Toggle />
             <Navbar.Collapse className="justify-content-end">
               <Nav.Link as={Link} to="/home">Home</Nav.Link>
@@ -21,8 +20,7 @@ const Header = () => {
             </Navbar.Collapse>
           </Container>
         </Navbar>
-      </>
-    </div>
+
   );
 };
 

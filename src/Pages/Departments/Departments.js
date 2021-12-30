@@ -1,9 +1,27 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import Department from '../Department/Department';
+
 
 const Departments = () => {
+  const [departments, setDepartments] = useState([]);
+  useEffect(() => {
+    fetch('department.json')
+      .then(res => res.json())
+      .then(data => setDepartments(data))
+  }, []);
+  
+  console.log(departments);
   return (
-    <div>
-      <h2>this is departments</h2>
+    <div className='row me-0 bg-info p-4'>
+      <h2>Our Departments</h2>
+
+      {
+        departments.map(department => <Department
+        key={department.id}
+        department={department}
+        
+        ></Department>)
+     }
     </div>
   );
 };

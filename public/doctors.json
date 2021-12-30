@@ -1,0 +1,48 @@
+[
+  {
+  "id": "1",
+  "name": "Dr. Md. Kamruzzaman",
+  "img": "https://www.doctorbangladesh.com/wp-content/uploads/dr-male-89x120.jpg",
+  "degree": "MBBS, FCPS (Surgery), FCPS (Plastic Surgery), MRCS (EDIN), MRCS (UK)"
+  },
+  {
+    "id": "2",
+  "name": "Dr. Bijoy Chandra Das",
+  "img": "https://www.doctorbangladesh.com/wp-content/uploads/dr-male-89x120.jpg",
+  "degree": "BDS, BCS (Health), FICD, PGT (OMS)"
+  },
+  {
+    "id": "3",
+  "name": "Prof. Dr. Kh. Md. Rayhan Hossain",
+  "img": "https://www.doctorbangladesh.com/wp-content/uploads/dr-male-89x120.jpg",
+  "degree": "MBBS, BCS (Health), MS (Pediatric Surgery)"
+  },
+  {
+    "id": "4",
+  "name": "Dr. Md. Kazi Ashraful Alam",
+  "img": "https://www.doctorbangladesh.com/wp-content/uploads/dr-male-89x120.jpg",
+  "degree": "Diabetes, Thyroid & Hormone Specialist"
+  },
+  {
+    "id": "5",
+    "name": "Dr. Md. Nurul Amin Dipu",
+    "img": "https://www.doctorbangladesh.com/wp-content/uploads/dr-male-89x120.jpg"
+,
+"degree": "Diabetes, Thyroid & Hormone Specialist"
+    },
+    {
+      "id": "6",
+    "name": "Prof. Dr. Md. Aslam Hossain",
+    "img": "https://www.doctorbangladesh.com/wp-content/uploads/dr-male-89x120.jpg"
+,
+"degree": "Cardiovascular & Thoracic Surgery Specialist"
+    },
+    {
+      "id": "7",
+    "name": "Dr. A.F.M Mahbub Alam",
+    "img": "https://www.doctorbangladesh.com/wp-content/uploads/dr-male-89x120.jpg"
+,
+"degree": "Arthritis, Osteoarthritis, Gout & Rheumatology Specialist"
+    }
+ 
+]
