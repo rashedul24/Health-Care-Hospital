@@ -1,0 +1,43 @@
+[
+  {
+  "id": "1",
+  "name": "24hrs Emergency",
+  "img": "https://i.ibb.co/crqGXYG/24-emergency.jpg"
+  },
+  {
+    "id": "2",
+  "name": "Orthopedics",
+  "img": "https://i.ibb.co/B38mdr0/24-orthopedics.jpg"
+  },
+  {
+    "id": "3",
+  "name": "Echo Cardiogram",
+  "img": "https://i.ibb.co/wNG9wPY/echo-cardiogram.jpg"
+  },
+  {
+    "id": "4",
+  "name": "ECG",
+  "img": "https://i.ibb.co/3Nnt9CV/ecg.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Ultrasonography",
+    "img": "https://i.ibb.co/Z26jGT6/ultrasonography.jpg"
+    },
+    {
+      "id": "6",
+    "name": "Colour Dopler",
+    "img": "https://i.ibb.co/8csnHXM/color-dopler.jpg"
+    },
+  {
+    "id": "7",
+  "name": "C-Arm OT",
+  "img": "https://i.ibb.co/D8jhrFG/c-arm-ot.jpg"
+  },
+  {
+    "id": "8",
+  "name": "24hrs Ambulance",
+  "img": "https://i.ibb.co/VvW2pyq/24-ambulance.jpg"
+  }
+ 
+]
