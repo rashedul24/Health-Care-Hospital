@@ -9,10 +9,8 @@ const Departments = () => {
       .then(res => res.json())
       .then(data => setDepartments(data))
   }, []);
-  
-  console.log(departments);
   return (
-    <div className='row me-0 bg-info p-4'>
+    <div className='row  bg-info p-4'>
       <h2>Our Departments</h2>
 
       {

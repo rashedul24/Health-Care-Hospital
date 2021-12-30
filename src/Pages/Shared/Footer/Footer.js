@@ -6,7 +6,7 @@ const Footer = () => {
   // fontawesome icon
   const copyRight = <FontAwesomeIcon icon={faCopyright} />;
   return (
-    <div className="text-center bg-primary text-white rounded p-2 mt-5">
+    <div className="text-center bg-primary text-white rounded p-2 pt-5">
       <h2>Health Care</h2>
       <hr />
       <div className="row">

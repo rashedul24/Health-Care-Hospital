@@ -12,7 +12,7 @@ const About = () => {
         </div>
 
         <div className="col-lg-6">
-          <Accordion defaultActiveKey="0" alwaysOpen>
+          <Accordion defaultActiveKey="0" >
             <Accordion.Item eventKey="0">
               <Accordion.Header>About Us</Accordion.Header>
               <Accordion.Body>
@@ -54,7 +54,8 @@ const About = () => {
         </div>
       </div>
       <div className="mt-5">
-      <h2>Contct Us</h2>
+        <h2>Contct Us</h2>
+        <hr />
         <p>Address: Health Care Hospital, Sirajgonj Road(Hatikumrul), Sirajgonj. Rajshahi. </p>
         <p>Mobile: 123456789</p>
         <p>Email: abc@healthcare.com</p>

@@ -5,7 +5,7 @@ import mission from "../../../images/mission/mission.jpg";
 
 const Vision = () => {
   return (
-    <div className="mission-vision">
+    <div className="mission-vision my-3">
       <h2 className="my-3">Our Mission & Vision</h2>
       <div className="row">
         <div className="col-lg-6">
@@ -13,7 +13,7 @@ const Vision = () => {
         </div>
 
         <div className="col-lg-6">
-          <Accordion defaultActiveKey="0" alwaysOpen>
+          <Accordion defaultActiveKey="0">
             <Accordion.Item eventKey="0">
               <Accordion.Header>MISSION</Accordion.Header>
               <Accordion.Body>
