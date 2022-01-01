@@ -8,11 +8,11 @@ const Service = ({service}) => {
     <div className='service col-lg-4 col-md-6'>
       <img  src={img} alt="" />
       <h2>{name}</h2>
-      <Link to={`singleService/${id}`}>
+      <Link to={`/singleService/${id}`}>
       <button className='btn my-3 btn-primary'>Service Details</button></Link>
       
     </div>
   );
 };
 
-export default Service;
+export default Service; 

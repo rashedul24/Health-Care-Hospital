@@ -22,7 +22,7 @@ function App() {
           <Route path="home" element={<Home />}></Route>
           <Route path="departments" element={<Departments />}></Route>
           
-          <Route path="home/singleService/:serviceId" element={<SingleService/>}></Route>
+          <Route path="/singleService/:serviceId" element={<SingleService/>}></Route>
           <Route path="about" element={<About />}></Route>
 
           <Route path="login" element={<Login/>}></Route>
