@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Container, Nav, Navbar } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import useAuth from "../../../hooks/useAuth";
 
 const Header = () => {
@@ -9,7 +9,7 @@ const Header = () => {
 
         <Navbar sticky="top" bg="dark" variant="dark"  collapseOnSelect expand="lg">
           <Container>
-            <Navbar.Brand href="/home" className="text-warning">Health Care</Navbar.Brand>
+            <NavLink to="/home" className="text-warning text-decoration-none fs-2">Health Care</NavLink>
             <Navbar.Toggle />
             <Navbar.Collapse className="justify-content-end">
               <Nav.Link as={Link} to="/home">Home</Nav.Link>
