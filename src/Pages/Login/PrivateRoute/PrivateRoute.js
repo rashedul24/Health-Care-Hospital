@@ -1,23 +1,20 @@
 import React from 'react';
-import { Redirect, Route } from 'react-router-dom';
+import { Navigate, Route } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
 
-const PrivateRoute = ({ children, ...rest }) => {
+const PrivateRoute = ({ children}) => {
   const { user } = useAuth();
   return (
-    <Route
-      {...rest}
-      render={({ location }) =>
-        user.email ? children :
-          <Redirect
-            to={{
-              path: "/login",
-              state: { from: location }
-            }}
-          ></Redirect>}
-    >
+    
       
-    </Route>
+      
+        user.displayName ? children :
+          <Navigate
+            to= "/login"
+          ></Navigate>
+    
+      
+
   );
 };
 
