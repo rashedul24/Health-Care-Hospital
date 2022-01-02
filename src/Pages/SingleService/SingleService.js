@@ -18,8 +18,9 @@ const SingleService = () => {
   
   return (
     <div className='my-2'>
-      <h2>Service Name: {singleService?.name} </h2>
       <img className='rounded mt-3' src={singleService?.img} alt="" />
+      <h4 className='my-3'>Service Name: {singleService?.name} </h4>
+      <p><span className='fw-bold'>Description: </span>{  singleService?.description}</p>
     </div>
   );
 };

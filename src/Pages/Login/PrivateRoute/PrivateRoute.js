@@ -1,13 +1,14 @@
 import React from 'react';
-import { Navigate, Route } from 'react-router-dom';
+import { Spinner } from 'react-bootstrap';
+import { Navigate } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
 
 const PrivateRoute = ({ children}) => {
-  const { user } = useAuth();
+  const { user, isLoading } = useAuth();
+  if (isLoading) {
+    return <Spinner animation="border" variant="primary"></Spinner> 
+  }
   return (
-    
-      
-      
         user.displayName ? children :
           <Navigate
             to= "/login"
@@ -19,3 +20,4 @@ const PrivateRoute = ({ children}) => {
 };
 
 export default PrivateRoute; 
+

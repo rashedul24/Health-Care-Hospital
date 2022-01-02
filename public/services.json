@@ -2,42 +2,51 @@
   {
   "id": "1",
   "name": "24hrs Emergency",
-  "img": "https://i.ibb.co/crqGXYG/24-emergency.jpg"
+  "img": "https://i.ibb.co/crqGXYG/24-emergency.jpg",
+  "description":"Health Care is known for providing advanced emergency services with rapid response for any kind of treatment. We have well-equipped emergency and trauma center with facilities of international standards. Our emergency department is always ready for these services. The department has state-of-the-art equipment and advanced patient monitoring systems to respond to any medical emergency."
   },
   {
     "id": "2",
   "name": "Orthopedics",
-  "img": "https://i.ibb.co/B38mdr0/24-orthopedics.jpg"
+  "img": "https://i.ibb.co/B38mdr0/24-orthopedics.jpg",
+  "description":"Orthopedics is a branch of medicine that focuses on the care of the skeletal system and its interconnecting parts. These parts include the: bones,muscles, joints, tendons, ligaments. Orthopedists treat a wide variety of musculoskeletal conditions. These conditions may be present from birth, or they may occur as a result of injury or age-related wear and tear."
   },
   {
     "id": "3",
   "name": "Echo Cardiogram",
-  "img": "https://i.ibb.co/wNG9wPY/echo-cardiogram.jpg"
+  "img": "https://i.ibb.co/wNG9wPY/echo-cardiogram.jpg",
+  "description":"An echocardiogram uses sound waves to produce images of your heart. This common test allows your doctor to see your heart beating and pumping blood. Your doctor can use the images from an echocardiogram to identify heart disease. Depending on what information your doctor needs, you may have one of several types of echocardiograms. Each type of echocardiogram involves few, if any, risks. "
   },
   {
     "id": "4",
   "name": "ECG",
-  "img": "https://i.ibb.co/3Nnt9CV/ecg.jpg"
+  "img": "https://i.ibb.co/3Nnt9CV/ecg.jpg",
+  "description":"An electrocardiogram (ECG) is a simple test that can be used to check your heart's rhythm and electrical activity. Sensors attached to the skin are used to detect the electrical signals produced by your heart each time it beats. hese signals are recorded by a machine and are looked at by a doctor to see if they're unusual. An ECG may be requested by a heart specialist (cardiologist) or any doctor who thinks you might have a problem with your heart, including your GP. The test can be carried out by a specially trained healthcare professional at a hospital, a clinic or at your GP surgery. Despite having a similar name, an ECG isn't the same as an echocardiogram, which is a scan of the heart."
   },
   {
     "id": "5",
     "name": "Ultrasonography",
-    "img": "https://i.ibb.co/Z26jGT6/ultrasonography.jpg"
+    "img": "https://i.ibb.co/Z26jGT6/ultrasonography.jpg",
+  "description":"Ultrasonography uses high-frequency sound (ultrasound) waves to produce images of internal organs and other tissues. A device called a transducer converts electrical current into sound waves, which are sent into the body’s tissues. Sound waves bounce off structures in the body and are reflected back to the transducer, which converts the waves into electrical signals. A computer converts the pattern of electrical signals into an image, which is displayed on a monitor and recorded as a digital computer image. No x-rays are used, so there is no radiation exposure during an ultrasonography.Ultrasonography is painless, relatively inexpensive, and considered very safe, even during pregnancy."
     },
     {
       "id": "6",
     "name": "Colour Dopler",
-    "img": "https://i.ibb.co/8csnHXM/color-dopler.jpg"
+    "img": "https://i.ibb.co/8csnHXM/color-dopler.jpg",
+  "description":"ometimes, doctors find a way to use technology that hits all the right notes -- it’s easy on your body, gives fast results, and doesn’t cause any side effects. That’s just the case with Doppler ultrasound, which gives doctors a way to see what’s going on inside your body without X-rays or injections. Instead, it turns sound waves into images. Your doctor can use it to check for issues with blood flow, such as clots in your veins or blockages in your arteries. It’s one of the main ways to test for deep vein thrombosis (DVT) -- a condition where blood clots form in veins deep in your body, usually in your legs. DVT can lead to more serious problems, such as a clot in your lungs. It can be life-threatening. So it’s important to get tested if you have symptoms."
     },
   {
     "id": "7",
   "name": "C-Arm OT",
-  "img": "https://i.ibb.co/D8jhrFG/c-arm-ot.jpg"
+  "img": "https://i.ibb.co/D8jhrFG/c-arm-ot.jpg",
+  "description":"We bring forth a wide assortment of operation tables that assists in completion of a very important medical and surgical task. The tables are ergonomically designed keeping in mind the demanding surgical requirements and the are able to bring out the versatility in the operation theater. These tables are light in weight and provide ease in operation. Our highly durable range includes Electromatic Operation Table with Longitudinal Top, Orthopedic Table, Electromatic Operation Table, C-ARM Gearmatic Hydraulic Operation Table, Super Deluxe Hydraulic Operation Table and C-ARM Hydraulic Operation Table."
   },
   {
     "id": "8",
   "name": "24hrs Ambulance",
-  "img": "https://i.ibb.co/VvW2pyq/24-ambulance.jpg"
+  "img": "https://i.ibb.co/VvW2pyq/24-ambulance.jpg",
+  "description":"Health Care Hospital provides emergency ambulance service for life support patients. Our ambulances are enriched with modern and advanced technologies for critical patients. We provide ambulance service not only in Sirajgonj but also in all over country. Our dedicated customer support is ready to provide an online ambulance service. Just dial our helpline for instant and emergency support. "
   }
  
 ]
+
