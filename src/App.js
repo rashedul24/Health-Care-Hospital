@@ -4,7 +4,6 @@ import AuthProvider from "./contexts/AuthProvider";
 import About from "./Pages/About/About";
 import Departments from "./Pages/Departments/Departments";
 import Home from "./Pages/Home/Home";
-import Login from "./Pages/Login/Login";
 import NotFound from "./Pages/NotFound/NotFound";
 import Register from "./Pages/Register/Register";
 import Footer from "./Pages/Shared/Footer/Footer";
@@ -24,9 +23,8 @@ function App() {
           
           <Route path="/singleService/:serviceId" element={<SingleService/>}></Route>
           <Route path="about" element={<About />}></Route>
-
-          <Route path="login" element={<Login/>}></Route>
-          <Route path="register" element={<Register />}></Route>
+ 
+          <Route path="login" element={<Register />}></Route>
           <Route path="*" element={<NotFound />}></Route>
 
         </Routes>

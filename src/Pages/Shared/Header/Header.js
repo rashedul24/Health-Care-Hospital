@@ -7,7 +7,7 @@ const Header = () => {
   const { user, logOut } = useAuth();
   return (
 
-        <Navbar sticky="top" bg="dark" variant="dark"  collapseOnSelect expand="lg">
+        <Navbar bg="dark" variant="dark"  collapseOnSelect expand="lg" sticky="top">
           <Container>
             <NavLink to="/home" className="text-warning text-decoration-none fs-2">Health Care</NavLink>
             <Navbar.Toggle />
